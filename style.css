@@ -41,6 +41,7 @@ width: 100%;
 min width: 320px;
 height: 334px;
 text-align: center;
+background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
 }
 
 header img {
@@ -58,4 +59,19 @@ header img {
   margin-top: 40px; /* para que se separe del logotipo */
   text-align: center;
   align-self: center; /* Estos estilos los podemos utilizar porque en el padre (header) el display es flex */
+}
+
+.header--title-container h1 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--just-white);
+}
+
+.header--title-container p {
+margin-top: 25px;
+font-size: 1.4rem;
+font-weight: 500;
+line-height: 1.8rem;
+color: var(--soft-orange);
 }
