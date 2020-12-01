@@ -31,3 +31,31 @@ Orden para generar estilos en CSS
    font-family: 'DM Sans', sans-serif;
  }
 
+header {
+
+position: relative;
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: 100%;
+min width: 320px;
+height: 334px;
+text-align: center;
+}
+
+header img {
+  width: 150px;
+  height: 24px;
+  margin-top: 60px;
+  align-self: center;
+}
+
+.header--title-container {
+  width: 90%;  /* va a estar utilizando un 90% de width entre 288 y 900px */
+  min-width: 288px;
+  max-width: 900px; /* una vez llegue a los 900 va a dejar de crecer */
+  height: 218px;
+  margin-top: 40px; /* para que se separe del logotipo */
+  text-align: center;
+  align-self: center; /* Estos estilos los podemos utilizar porque en el padre (header) el display es flex */
+}
