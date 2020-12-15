@@ -340,3 +340,49 @@ border-radius: 15px 0 0 0;
     font-weight: 300;
   
   }
+
+  /* SECCION DE BENEFICIOS */
+
+  .main-product-detail {
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 20px 10px;
+    background-color: var(--warm-black);
+  }
+
+  .product-detail--batata-logo{
+    position: absolute; /* no respeta espacio en el layout */
+    width: 40px;
+    height: 25px;
+    top: -10px;
+    left: calc(50% - 20px); /* calcular un espacio para posicionar, hay que restar la dimension de la imagen para que se posicione justo en el centro */
+   
+    /* para traer imagen como background  */
+    background-image: url('./assets/icons/Papa.svg');
+    background-repeat: no-repeat;
+  }
+
+
+  .product-detail--title {
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+
+  }
+
+
+  .product-detail--title h2{
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+
+
+  }
+
