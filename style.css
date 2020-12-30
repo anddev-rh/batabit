@@ -421,19 +421,19 @@ border-radius: 15px 0 0 0;
 }
 
 .clock {
-  background-image: url('/assets/icons/clock.svg');
+  background-image: url('assets/icons/clock.svg');
 }
 
 .eye {
-  background-image: url('/assets/icons/eye.svg');
+  background-image: url('assets/icons/eye.svg');
 }
 
 .sign {
-  background-image: url('/assets/icons/dollar-sign.svg');
+  background-image: url('assets/icons/dollar-sign.svg');
 }
 
 .check-icon {
-  background-image: url('/assets/icons/check-circle.svg');
+  background-image: url('assets/icons/check-circle.svg');
 }
 
 
